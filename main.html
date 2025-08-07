@@ -9,52 +9,54 @@
 <body>
 	<!-- the entire body must be written by student -->
 
-	<form method="post">
-  <label for="name">Name:</label>
+<form method="post">
+  <label for="name">Name</label>
   <input type="text" id="name" name="name" required placeholder="Name">
   <br>
 
-  <label for="email">Email:</label>
+  <label for="email">Email</label>
   <input type="email" id="email" name="email" required placeholder="Email">
   <br>
 
-  <label>Gender:</label>
-  <input type="radio" id="gender_m" name="gender" required value="male">
+  <label>Gender</label>
   <label for="gender_m">Male</label>
+  <input type="radio" id="gender_m" name="gender" required value="male">
+   <label for="gender_f">Female</label>
   <input type="radio" id="gender_f" name="gender" required value="female">
-  <label for="gender_f">Female</label>
+  
   <br>
 
-  <label for="cars">Car Brands:</label>
+  <label for="cars">Car Brands</label>
   <select id="cars" name="cars" required>
-    <option value="" disabled selected>--Please choose an option--</option>
+    <option>--Please choose an option--</option>
     <option value="toyota">Toyota</option>
     <option value="honda">Honda</option>
     <option value="ford">Ford</option>
   </select>
   <br>
 
-  <label for="age">Age:</label>
+  <label for="age">Age</label>
   <input type="number" id="age" name="age" required placeholder="Age">
   <br>
 
-  <label for="dob">Date of Birth:</label>
+  <label for="dob">DOB</label>
   <input type="date" id="dob" name="dob" required>
   <br>
 
-  <label for="tel">Phone Number:</label>
-  <input type="tel" id="tel" name="tel" placeholder="XXX-XXXX-XXXX">
+  <label for="tel">Phone Number</label>
+  <input type="tel" id="tel" name="tel" placeholder="xxx-xxx-xxxx">
   <br>
 
-  <label for="password">Password:</label>
+  <label for="password">Password</label>
   <input type="password" id="password" name="password" required placeholder="Password">
   <br>
 
-  <input type="checkbox" id="tos" name="tos" required>
   <label for="tos">I agree to the TOS</label>
+  <input type="checkbox" id="tos" name="tos" required>
+  
   <br>
 
-  <input type="submit" value="Submit">
+  <button type="submit">Submit</button>
 </form>
     <script type="text/javascript" src="./script.js">
 </script>
